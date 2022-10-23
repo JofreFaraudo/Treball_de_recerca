@@ -1,5 +1,16 @@
 ## RUN GENERATOR.PY BEFORE THIS POINT
 
+S_L8_A = Itinerary("PE", "ML") # L8 towards ML (local)
+S_L8_D = Itinerary("ML", "PE", False)
+S_S4_A = Itinerary("PE", "OL") # S4 towards OL (local)
+S_S4_D = Itinerary("OL", "PE", False)
+S_S8_A = Itinerary("PE", "ME") # S8 towards ME (local)
+S_S8_D = Itinerary("ME", "PE", False)
+S_R5B_A = Itinerary("PE", "MB", _skip = ["MG","EU","GO","SP","AL","CO","ML","CG","CL","VH","QC","PA","MV"]) # Semirapid service
+S_R5B_D = Itinerary("MB", "PE", _skip = ["MG","EU","GO","SP","AL","CO","ML","CG","CL","VH","QC","PA","MV"], _dir = False)
+S_R6B_A = Itinerary("PE", "IG", _skip = ["MG","EU","GO","SP","AL","CO","ML","CG","CL","CR","QC","PL","MV"])
+S_R6B_D = Itinerary("IG", "PE", _skip = ["MG","EU","GO","SP","AL","CO","ML","CG","CL","CR","QC","PL","MV"], _dir = False)
+
 data = []
 count = 4
 i = 0
