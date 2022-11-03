@@ -7,6 +7,7 @@ Per altra banda, també hi tribareu un document de càlcul ODS on s'hi represent
 * `calculs.ods` Full de càlcul les dades usades
 * `generator.py` Programa base generador d'escenaris
 * _`escenaris`_ Carpeta amb els escenaris
+  * `README.md`
   * _`escenari_1`_ Carpeta amb els continguts de l'escenari 1
     * `esc1.py` Programa python generador de l'escenari
     * `horari.csv` Fitxer de dades CSV amb els horaris en format HH:MM:SS comptant des d'un instant zero (repetició horària)
